@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 const WHATSAPP_URL =
-  "https://wa.me/905442284494?text=Merhaba%2C%20bak%C4%B1c%C4%B1%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.";
+  "https://wa.me/905331370317?text=Merhaba%2C%20bak%C4%B1c%C4%B1%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.";
 const INSTAGRAM_URL = "https://www.instagram.com/bakicivarmi/";
 
 function WhatsAppButton({
@@ -37,6 +37,23 @@ export default function Home() {
             className="object-contain"
             unoptimized
           />
+          {/* Badge + Phone */}
+          <div className="flex flex-col items-end gap-1">
+            <span className="inline-flex items-center gap-1.5 bg-[#ffd166] text-[#5a4a8a] font-bold text-xs px-3 py-1 rounded-full shadow-sm">
+              🌍 Türkiye&apos;nin Her İline Hizmet Veriyoruz
+            </span>
+            <a
+              href={WHATSAPP_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 bg-green-500 hover:bg-green-600 text-white font-black text-sm px-3 py-1 rounded-full shadow-md transition-all duration-200 hover:scale-105 animate-pulse"
+            >
+              <svg className="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+              </svg>
+              0533 137 03 17
+            </a>
+          </div>
         </div>
       </nav>
 
@@ -49,18 +66,16 @@ export default function Home() {
 
         <div className="relative max-w-6xl mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center py-16">
           <div>
-            <span className="inline-block bg-[#ffd166] text-[#5a4a8a] font-bold text-sm px-4 py-1.5 rounded-full mb-6 shadow-sm">
-              🌍 Türkiye&apos;nin Her İline Hizmet Veriyoruz
-            </span>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-[#4a3f7a] leading-tight mb-6">
-              Sevgiyle Büyüyen{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#f9a8b8] to-[#f06292]">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-[#1a1f5e] leading-tight mb-6">
+              <span className="text-[#f06292]">Sevgiyle</span> Büyüyen{" "}
+              <span className="text-[#1a1f5e]">
                 Çocuklar
               </span>{" "}
               için{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#5bbfb5] to-[#2d9e93]">
-                Güvenilir Bakıcılar
-              </span>
+              <span className="text-[#2d9e93]">
+                Güvenilir
+              </span>{" "}
+              <span className="text-[#1a1f5e]">Bakıcılar</span>
             </h1>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
               Afrika kökenli, deneyimli ve İngilizce konuşan bakıcılarımızla
@@ -164,7 +179,7 @@ export default function Home() {
                 color: "from-[#f9c5d1] to-[#f06292]",
                 bg: "bg-[#fff5f8]",
                 border: "border-[#f9c5d1]",
-                desc: "Bebeğinizden okul çağındaki çocuğunuza kadar tüm bakım ihtiyaçlarını sevgiyle karşılıyoruz. Bakıcılarımız çocuklarla oyun oynuyor, onları eğletiyor ve gelişimlerini destekliyor.",
+                desc: "Bebeğinizden okul çağındaki çocuğunuza kadar tüm bakım ihtiyaçlarını sevgiyle karşılıyor; bakıcılarımız oyunlarla, eğitimle ve kişisel gelişimlerini destekleyerek yanlarında oluyor.",
               },
               {
                 img: "/images/babysitter3.png",
@@ -173,7 +188,7 @@ export default function Home() {
                 color: "from-[#a5d8f3] to-[#1e88e5]",
                 bg: "bg-[#f5faff]",
                 border: "border-[#a5d8f3]",
-                desc: "Ana dili İngilizce olan bakıcılarımız, çocuğunuzun erken yaşta yabancı dil kazanmasına doğal ortamda katkı sağlar. Oyun ablası gibi hem eğlenceli hem öğretici!",
+                desc: "Ana dili İngilizce olan bakıcılarımız, çocuğunuzun erken yaşta yabancı dil öğrenmesine ev ortamında katkı sağlar. Oyun ablası gibi hem eğlenceli hem öğretici!",
               },
               {
                 img: "/images/cleaning1.png",
@@ -182,7 +197,7 @@ export default function Home() {
                 color: "from-[#b2e4d8] to-[#26a69a]",
                 bg: "bg-[#f5fffd]",
                 border: "border-[#b2e4d8]",
-                desc: "Çocuğu büyük olan aileler için ev temizliği ve düzenine yardımcı olabilecek personelimiz de mevcut. Güvenilir, çalışkan ve titiz yardımcılar portföyümüzde yer alıyor.",
+                desc: "Bakıcılarımız aynı zamanda ev temizliği ve düzenine yardımcı olurlar. Güvenilir, çalışkan ve titiz yardımcılar.",
               },
             ].map((s) => (
               <div
@@ -246,7 +261,7 @@ export default function Home() {
                 step: "02",
                 emoji: "🤝",
                 title: "Size Özel Eşleşme",
-                desc: "Portföyümüzdeki deneyimli bakıcılar arasından ailenize en uygun adayı belirliyoruz.",
+                desc: "Portföyümüzdeki deneyimli bakıcılar arasından ailenize en uygun adayları birlikte belirliyoruz.",
                 color: "bg-[#f9c5d1]",
               },
               {
@@ -301,18 +316,18 @@ export default function Home() {
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {
-                emoji: "🌍",
-                title: "Afrika Kökenli Bakıcılar",
-                desc: "Özenle seçilmiş, Afrika kökenli ve deneyimli bakıcı kadromuz Türk ailelerin güvenini kazanmıştır.",
-                color: "bg-[#fff3e0]",
-                border: "border-[#ffcc80]",
-              },
-              {
                 emoji: "🗣️",
                 title: "Ana Dili İngilizce",
                 desc: "Bakıcılarımız ana dili İngilizce olduğu için çocuğunuz oyun ortamında doğal yollarla İngilizce öğrenir.",
                 color: "bg-[#e8f5e9]",
                 border: "border-[#a5d6a7]",
+              },
+              {
+                emoji: "🌍",
+                title: "Afrika Kökenli Bakıcılar",
+                desc: "Özenle seçilmiş, Afrika kökenli ve deneyimli bakıcı kadromuz Türk ailelerin güvenini kazanmıştır.",
+                color: "bg-[#fff3e0]",
+                border: "border-[#ffcc80]",
               },
               {
                 emoji: "🔄",
@@ -331,14 +346,14 @@ export default function Home() {
               {
                 emoji: "⭐",
                 title: "Deneyimli Ekip",
-                desc: "Tüm bakıcılarımız daha önce ailelerde çalışmış, referansları olan deneyimli kişilerden oluşmaktadır.",
+                desc: "Şeffaf ve açık iletişim ile ihtiyaçlarınızı doğru şekilde anlayıp bu doğrultuda personel yönlendiriyoruz.",
                 color: "bg-[#f3e5f5]",
                 border: "border-[#ce93d8]",
               },
               {
                 emoji: "🏠",
-                title: "Ev Temizliği de Yapıyoruz",
-                desc: "Sadece çocuk bakımı değil, ev işlerine ve temizliğe yardımcı olabilecek personelimiz de portföyümüzde.",
+                title: "Ev Yardımcısı Desteği",
+                desc: "Personellerimiz yalnızca çocuk bakımı değil, ev işlerine ve temizliğe yardımcı olurlar.",
                 color: "bg-[#e0f7fa]",
                 border: "border-[#80deea]",
               },
@@ -433,7 +448,7 @@ export default function Home() {
                 href={WHATSAPP_URL}
                 className="text-green-600 hover:underline font-black"
               >
-                +90 544 228 44 94
+                +90 533 137 03 17
               </a>
             </p>
           </div>
