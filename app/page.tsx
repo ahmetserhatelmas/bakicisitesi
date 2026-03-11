@@ -470,12 +470,7 @@ export default function Home() {
             <p className="text-white/60 text-sm">
               © 2026 Bakıcı Var Mı? — Türkiye&apos;nin Her İline Güvenilir Bakıcı
             </p>
-            <a
-              href="mailto:bakicivarmi@gmail.com"
-              className="text-white/60 text-sm hover:text-white transition-colors mt-1 block"
-            >
-              bakicivarmi@gmail.com
-            </a>
+            <p className="text-white/60 text-sm mt-1">bakicivarmi@gmail.com</p>
           </div>
           <div className="flex items-center gap-4">
             <WhatsAppButton className="text-white/70 hover:text-green-400 transition-colors">
