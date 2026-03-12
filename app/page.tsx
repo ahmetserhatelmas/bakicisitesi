@@ -1,8 +1,28 @@
 import Image from "next/image";
+import HeroCarousel from "./HeroCarousel";
 
 const WHATSAPP_URL =
   "https://wa.me/905331370317?text=Merhaba%2C%20bak%C4%B1c%C4%B1%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.";
 const INSTAGRAM_URL = "https://www.instagram.com/bakicivarmi/";
+
+const BANNER_IMAGES = [
+  "image-baec655f-86d1-447e-832c-a548f5f1c702.png",
+  "image-f3649650-119e-4754-b6c6-c610bd662d43.png",
+  "image-eb04a8ed-1611-470d-98ba-6d4d6587ceb5.png",
+  "image-53e2ef20-2ac3-4546-817c-84d70af2857e.png",
+  "image-2c12c79f-d35b-4c6f-ab0f-8f9211ad0607.png",
+  "image-1ac70947-210c-4333-8ade-dc19741ca04a.png",
+  "image-77b01a00-7373-4a83-8b89-86d614aa1162.png",
+  "image-dd4b5da0-a618-4f90-8420-47629e582588.png",
+  "image-33d57571-93c7-46ff-bb72-5c3de06f3ee9.png",
+  "image-91acd217-17e5-4ec1-b521-d038b1230ab6.png",
+  "image-1760f27b-e938-40f1-8c62-0fd1a1b63487.png",
+  "image-37882e9d-850c-43e5-a5ce-69d0f84964f7.png",
+  "image-8ada64a7-5964-4d3d-8346-c2a20b3590bb.png",
+  "image-9f8e2113-fe2b-4765-b0ab-3870ef7dd410.png",
+  "image-6f216b61-501c-4985-bdd4-f978fe31ec1a.png",
+  "image-c97bfbe7-2913-47ab-899a-13196b694371.png",
+];
 
 function WhatsAppButton({
   children,
@@ -98,38 +118,10 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="relative">
-            <div className="relative grid grid-cols-2 gap-4">
-              <div className="col-span-2 rounded-3xl overflow-hidden shadow-2xl h-64">
-                <Image
-                  src="/images/babysitter1.png"
-                  alt="Bakıcı ve çocuk"
-                  width={800}
-                  height={400}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="rounded-3xl overflow-hidden shadow-xl h-52">
-                <Image
-                  src="/images/babysitter2.png"
-                  alt="Bebek bakımı"
-                  width={400}
-                  height={300}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="rounded-3xl overflow-hidden shadow-xl h-52">
-                <Image
-                  src="/images/babysitter3.png"
-                  alt="Çocuk bakımı"
-                  width={400}
-                  height={300}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-            </div>
+          <div className="relative pb-12">
+            <HeroCarousel images={BANNER_IMAGES} />
             {/* Floating badge */}
-            <div className="absolute -bottom-6 left-1/2 -translate-x-1/2 bg-[#ffd166] text-[#4a3f7a] font-black px-6 py-3 rounded-2xl shadow-xl text-sm whitespace-nowrap">
+            <div className="absolute bottom-0 left-1/2 -translate-x-1/2 bg-[#ffd166] text-[#4a3f7a] font-black px-6 py-3 rounded-2xl shadow-xl text-sm whitespace-nowrap z-10">
               ✨ Ücretsiz Personel Değişim Hakkı
             </div>
           </div>
