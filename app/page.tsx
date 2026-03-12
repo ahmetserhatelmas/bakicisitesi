@@ -133,7 +133,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8 text-center text-white">
           {[
             { num: "81", label: "İle Hizmet", icon: "🗺️" },
-            { num: "100+", label: "Mutlu Aile", icon: "❤️" },
+            { num: "600+", label: "Mutlu Aile", icon: "❤️" },
             { num: "Ana Dili", label: "İngilizce Bakıcılar", icon: "🌍" },
             { num: "Ücretsiz", label: "Personel Değişimi", icon: "🔄" },
           ].map((s) => (

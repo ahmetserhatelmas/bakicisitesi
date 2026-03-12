@@ -9,7 +9,7 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
-  title: "Bakıcı Var Mı? | Güvenilir Afrika Kökenli Bakıcılar",
+  title: "Bakıcı Var Mı? | Güvenilir Ana Dili İngilizce Olan Bakıcılar",
   description:
     "Türk aileler için Afrika kökenli, deneyimli ve güvenilir çocuk bakıcısı, bebek bakıcısı ve ev yardımcısı buluyoruz. Türkiye'nin her iline hizmet veriyoruz.",
   keywords:
