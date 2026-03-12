@@ -9,6 +9,7 @@ const nunito = Nunito({
 });
 
 const siteUrl = "https://www.bakicivarmi.com";
+const logoUrl = `${siteUrl}/images/logo.png`;
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -18,20 +19,24 @@ export const metadata: Metadata = {
   keywords:
     "bakıcı, çocuk bakıcısı, bebek bakıcısı, ev yardımcısı, Afrika kökenli bakıcı, İngilizce bakıcı, dil gelişimi",
   openGraph: {
+    type: "website",
     title: "Bakıcı Var Mı? | Güvenilir Ana Dili İngilizce Olan Bakıcılar",
     description:
       "Türk aileler için Afrika kökenli, deneyimli ve güvenilir çocuk bakıcısı, bebek bakıcısı ve ev yardımcısı buluyoruz. Türkiye'nin her iline hizmet veriyoruz.",
     url: siteUrl,
     siteName: "Bakıcı Var Mı?",
-    images: [{ url: "/images/logo.png", width: 512, height: 512, alt: "Bakıcı Var Mı?" }],
+    images: [
+      { url: logoUrl, width: 795, height: 579, alt: "Bakıcı Var Mı?" },
+      { url: logoUrl, width: 1200, height: 630, alt: "Bakıcı Var Mı?" },
+    ],
     locale: "tr_TR",
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: "Bakıcı Var Mı? | Güvenilir Ana Dili İngilizce Olan Bakıcılar",
     description:
       "Türk aileler için Afrika kökenli, deneyimli ve güvenilir çocuk bakıcısı, bebek bakıcısı ve ev yardımcısı buluyoruz. Türkiye'nin her iline hizmet veriyoruz.",
-    images: ["/images/logo.png"],
+    images: [logoUrl],
   },
 };
 
