@@ -13,14 +13,14 @@ const logoUrl = `${siteUrl}/images/logo.png`;
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "Bakıcı Var Mı? | Güvenilir Ana Dili İngilizce Olan Bakıcılar",
+  title: "Bakıcı Var Mı? | Anadili İngilizce Olan Güvenilir Bakıcılar",
   description:
     "Türk aileler için Afrika kökenli, deneyimli ve güvenilir çocuk bakıcısı, bebek bakıcısı ve ev yardımcısı buluyoruz. Türkiye'nin her iline hizmet veriyoruz.",
   keywords:
     "bakıcı, çocuk bakıcısı, bebek bakıcısı, ev yardımcısı, Afrika kökenli bakıcı, İngilizce bakıcı, dil gelişimi",
   openGraph: {
     type: "website",
-    title: "Bakıcı Var Mı? | Güvenilir Ana Dili İngilizce Olan Bakıcılar",
+    title: "Bakıcı Var Mı? | Anadili İngilizce Olan Güvenilir Bakıcılar",
     description:
       "Türk aileler için Afrika kökenli, deneyimli ve güvenilir çocuk bakıcısı, bebek bakıcısı ve ev yardımcısı buluyoruz. Türkiye'nin her iline hizmet veriyoruz.",
     url: siteUrl,
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Bakıcı Var Mı? | Güvenilir Ana Dili İngilizce Olan Bakıcılar",
+    title: "Bakıcı Var Mı? | Anadili İngilizce Olan Güvenilir Bakıcılar",
     description:
       "Türk aileler için Afrika kökenli, deneyimli ve güvenilir çocuk bakıcısı, bebek bakıcısı ve ev yardımcısı buluyoruz. Türkiye'nin her iline hizmet veriyoruz.",
     images: [logoUrl],
