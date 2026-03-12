@@ -13,7 +13,7 @@ const logoUrl = `${siteUrl}/images/logo.png`;
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "Bakıcı Var Mı? | Anadili İngilizce Olan Güvenilir Bakıcılar",
+  title: "Bakıcı Var Mı? | Ana dili İngilizce Olan Güvenilir Bakıcılar",
   description:
     "Türk aileler için Afrika kökenli, deneyimli ve güvenilir çocuk bakıcısı, bebek bakıcısı ve ev yardımcısı buluyoruz. Türkiye'nin her iline hizmet veriyoruz.",
   keywords:
