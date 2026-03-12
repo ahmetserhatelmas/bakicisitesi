@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useState, useCallback, useEffect } from "react";
 
-const AUTO_PLAY_MS = 4500;
+const AUTO_PLAY_MS = 2000;
 
 export default function HeroCarousel({ images }: { images: string[] }) {
   const [index, setIndex] = useState(0);
