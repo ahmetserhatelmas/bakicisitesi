@@ -3,7 +3,7 @@ import HeroCarousel from "./HeroCarousel";
 
 const WHATSAPP_URL =
   "https://wa.me/905331370317?text=Merhaba%2C%20bak%C4%B1c%C4%B1%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.";
-const INSTAGRAM_URL = "https://www.instagram.com/bakicivarmi/";
+const INSTAGRAM_URL = "https://www.instagram.com/cocukbakicisiturkiye";
 
 const BANNER_IMAGES = [
   "image-baec655f-86d1-447e-832c-a548f5f1c702.png",
